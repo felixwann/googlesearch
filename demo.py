@@ -10,7 +10,4 @@ if __name__ == "__main__":
     keyword = "china"
     data = gs.search(keyword=keyword)
     j = json.dumps(data)
-    curTime = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
-    file = "./results/googlesearch" + keyword + "_" + curTime + ".json"
-    with open(file, "w", encoding="utf-8") as f:
-        f.write(str(j))
+    pprint(j)
