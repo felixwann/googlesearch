@@ -1,5 +1,3 @@
-# Google Spider
-
 ### 安装依赖
 ```
 pip install requests
